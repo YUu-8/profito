@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "首页",
+    "projects": "项目",
+    "resume": "简历",
+    "skills": "技能",
+    "contact": "联系我"
+  },
+  "home": {
+    "greeting": "你好，我是",
+    "name": "王钰淳",
+    "title": "AI / ML 工程师",
+    "subtitle": "计算机科学应届毕业生 · ESILV巴黎交换生 · AI工程爱好者",
+    "cta_projects": "查看项目",
+    "cta_ai": "和我的AI聊聊"
+  },
+  "education": {
+  "title": "教育经历",
+  "items": [
+    {
+      "school": "法国ESILV巴黎工程师学校",
+      "degree": "交换生 · 数据与AI方向",
+      "period": "2025.09 — 2026.05",
+      "location": "巴黎，法国",
+      "highlights": ["IBM Watsonx AI黑客马拉松 Top 10", "MLOps · 深度学习 · NLP· Machine learning·Programming in data science" ]
+    },
+    {
+      "school": "上海师范大学",
+      "degree": "计算机科学 本科",
+      "period": "2022.09 — 2026.06",
+      "location": "上海，中国",
+      "highlights": ["中美韦伯商业大赛TOP4", "公安部第三研究所实习（2024）"]
+    },
+    {
+      "school": "上海交通大学",
+      "degree": "AI微专业|创业辅修",
+      "period": "2023.09 — 2024.06",
+      "location": "上海，中国",
+      "highlights": ["机器学习 · 深度学习 · GAN · AgentAI"]
+    }
+  ]
+},
+  "projects": {
+    "title": "项目经历",
+    "view_code": "查看代码",
+    "view_demo": "演示",
+    "view_details": "查看详情",
+    "filter_all": "全部",
+    "filter_ml": "ML & AI",
+    "filter_data": "数据工程",
+    "filter_devops": "运维",
+    "back": "← 返回项目",
+    "background": "项目背景",
+    "role_label": "我的角色",
+    "challenges": "技术难点",
+    "results": "核心成果",
+    "view_report": "查看报告PDF",
+    "no_video": "暂无演示"
+  },
+  "ai": {
+    "title": "和Yuu聊天",
+    "placeholder": "问我任何关于我的经历、项目或技能...",
+    "send": "发送",
+    "thinking": "Yuu正在思考..."
+  },
+  "resume": {
+    "title": "简历",
+    "download": "下载PDF",
+    "preview_title": "简历预览",
+    "skills_title": "技术技能",
+    "experience_title": "实习经历",
+    "education_title": "教育经历",
+    "languages_title": "语言能力",
+    "skills": {
+      "ml": "机器学习",
+      "backend": "后端 & DevOps",
+      "frontend": "前端",
+      "data": "数据分析"
+    },
+    "experience": {
+      "company": "公安部第三研究所",
+      "role": "科研成果转化实习生",
+      "period": "2024",
+      "location": "上海，中国",
+      "desc": "参与科研项目成果转化工作，积累政府科研机构实践经验。"
+    },
+    "languages_list": [
+      { "lang": "中文", "level": "母语" },
+      { "lang": "英语", "level": "流利（IELTS 6.0）" },
+      { "lang": "法语", "level": "工作级别" }
+    ]
+  },
+  "blog": {
+    "title": "技能 & 开源",
+    "skills_title": "技术技能",
+    "radar_title": "技能雷达",
+    "github_title": "GitHub 动态",
+    "repos": "公开仓库",
+    "stars": "获星总数",
+    "top_language": "主要语言",
+    "top_repos": "热门项目",
+    "languages": "语言分布",
+    "api_error": "GitHub API 请求受限，请稍后再试"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "欢迎聊工作机会、项目合作或技术问题",
+    "name_label": "姓名",
+    "email_label": "邮箱",
+    "message_label": "留言",
+    "send": "发送消息",
+    "success": "消息已发送，感谢联系！",
+    "error": "发送失败，请直接发邮件联系我",
+    "location": "上海 / 巴黎",
+    "email_address": "wangyuchun0807@gmail.com"
+  }
+}

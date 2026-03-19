@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "resume": "CV",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Bonjour, je suis",
+    "name": "Yuchun Wang",
+    "title": "Ingénieure AI / ML",
+    "subtitle": "Diplômée en Informatique · Échange ESILV Paris · Passionnée d'IA",
+    "cta_projects": "Voir les projets",
+    "cta_ai": "Discuter avec mon IA"
+  },
+  "education": {
+  "title": "Formation",
+  "items": [
+    {
+      "school": "ESILV – École Supérieure d'Ingénieurs Léonard de Vinci",
+      "degree": "Étudiante en échange · Data & IA",
+      "period": "Sep 2025 — Mai 2026",
+      "location": "Paris, France",
+      "highlights": ["Hackathon IBM Watsonx IA Top 10", "MLOps · Deep Learning · NLP · Machine Learning · Programmation en Data Science"]
+    },
+    {
+      "school": "Université Normale de Shanghai",
+      "degree": "Licence Informatique",
+      "period": "Sep 2022 — Juin 2026",
+      "location": "Shanghai, Chine",
+      "highlights": ["Compétition Sino-Américaine Weber Top 4", "Stage – Ministère de la Sécurité Publique (2024)"]
+    },
+    {
+      "school": "Université Jiao Tong de Shanghai",
+      "degree": "Mineure IA | Mineure Entrepreneuriat",
+      "period": "Sep 2023 — Juin 2024",
+      "location": "Shanghai, Chine",
+      "highlights": ["Machine Learning · Deep Learning · GAN · Agent IA"]
+    }
+  ]
+},
+  "projects": {
+    "title": "Projets",
+    "view_code": "Voir le code",
+    "view_demo": "Démo",
+    "view_details": "Voir les détails",
+    "filter_all": "Tous",
+    "filter_ml": "ML & IA",
+    "filter_data": "Ingénierie de Données",
+    "filter_devops": "DevOps",
+    "back": "← Retour aux Projets",
+    "background": "Contexte",
+    "role_label": "Mon Rôle",
+    "challenges": "Défis Techniques",
+    "results": "Résultats Clés",
+    "view_report": "Voir le Rapport PDF",
+    "no_video": "Pas de démo disponible"
+  },
+  "ai": {
+    "title": "Discuter avec Yuu",
+    "placeholder": "Posez-moi des questions sur mon expérience, mes projets ou mes compétences...",
+    "send": "Envoyer",
+    "thinking": "Yuu réfléchit..."
+  },
+  "resume": {
+    "title": "CV",
+    "download": "Télécharger PDF",
+    "preview_title": "Aperçu du CV",
+    "skills_title": "Compétences techniques",
+    "experience_title": "Expérience",
+    "education_title": "Formation",
+    "languages_title": "Langues",
+    "skills": {
+      "ml": "Machine Learning",
+      "backend": "Backend & DevOps",
+      "frontend": "Frontend",
+      "data": "Analyse de données"
+    },
+    "experience": {
+      "company": "Ministère de la Sécurité Publique – 3ème Institut de Recherche",
+      "role": "Stagiaire en transfert de technologie",
+      "period": "2024",
+      "location": "Shanghai, Chine",
+      "desc": "Contribution aux projets de transfert technologique au sein d'un institut de recherche gouvernemental."
+    },
+    "languages_list": [
+      { "lang": "Chinois", "level": "Langue maternelle" },
+      { "lang": "Anglais", "level": "Courant (IELTS 6.0)" },
+      { "lang": "Français", "level": "Niveau professionnel" }
+    ]
+  },
+  "blog": {
+    "title": "Compétences & Open Source",
+    "skills_title": "Compétences techniques",
+    "radar_title": "Radar de compétences",
+    "github_title": "Activité GitHub",
+    "repos": "Dépôts publics",
+    "stars": "Étoiles totales",
+    "top_language": "Langage principal",
+    "top_repos": "Meilleurs dépôts",
+    "languages": "Répartition des langages",
+    "api_error": "Limite de taux GitHub atteinte — réessayez plus tard"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Ouvert aux opportunités, collaborations ou discussions techniques",
+    "name_label": "Nom",
+    "email_label": "E-mail",
+    "message_label": "Message",
+    "send": "Envoyer",
+    "success": "Message envoyé — merci de m'avoir contactée !",
+    "error": "Échec d'envoi. Veuillez m'écrire directement par e-mail.",
+    "location": "Shanghai / Paris",
+    "email_address": "wangyuchun0807@gmail.com"
+  }
+}

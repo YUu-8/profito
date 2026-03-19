@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "resume": "Resume",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Hi, I'm",
+    "name": "Yuchun Wang",
+    "title": "AI / ML Engineer",
+    "subtitle": "CS Graduate · ESILV Paris Exchange · AI Enthusiast",
+    "cta_projects": "View Projects",
+    "cta_ai": "Chat with my AI"
+  },
+  "education": {
+  "title": "Education",
+  "items": [
+    {
+      "school": "ESILV – École Supérieure d'Ingénieurs Léonard de Vinci",
+      "degree": "Exchange Student · Data & AI",
+      "period": "Sep 2025 — May 2026",
+      "location": "Paris, France",
+      "highlights": ["IBM Watsonx AI Hackathon Top 10", "MLOps · Deep Learning · NLP · Machine Learning · Programming in Data Science"]
+    },
+    {
+      "school": "Shanghai Normal University",
+      "degree": "B.Sc. Computer Science",
+      "period": "Sep 2022 — Jun 2026",
+      "location": "Shanghai, China",
+      "highlights": ["Sino-US Weber Business Competition Top 4", "Internship – Ministry of Public Security (2024)"]
+    },
+    {
+      "school": "Shanghai Jiao Tong University",
+      "degree": "AI Minor | Entrepreneurship Minor",
+      "period": "Sep 2023 — Jun 2024",
+      "location": "Shanghai, China",
+      "highlights": ["Machine Learning · Deep Learning · GAN · Agent AI"]
+    }
+  ]
+},
+  "projects": {
+    "title": "Projects",
+    "view_code": "View Code",
+    "view_demo": "Demo",
+    "view_details": "View Details",
+    "filter_all": "All",
+    "filter_ml": "ML & AI",
+    "filter_data": "Data Engineering",
+    "filter_devops": "DevOps",
+    "back": "← Back to Projects",
+    "background": "Background",
+    "role_label": "My Role",
+    "challenges": "Technical Challenges",
+    "results": "Key Results",
+    "view_report": "View Report PDF",
+    "no_video": "No demo available"
+  },
+  "ai": {
+    "title": "Chat with Yuu",
+    "placeholder": "Ask me about my experience, projects or skills...",
+    "send": "Send",
+    "thinking": "Yuu is thinking..."
+  },
+  "resume": {
+    "title": "Resume",
+    "download": "Download PDF",
+    "preview_title": "Resume Preview",
+    "skills_title": "Technical Skills",
+    "experience_title": "Experience",
+    "education_title": "Education",
+    "languages_title": "Languages",
+    "skills": {
+      "ml": "Machine Learning",
+      "backend": "Backend & DevOps",
+      "frontend": "Frontend",
+      "data": "Data Analytics"
+    },
+    "experience": {
+      "company": "Ministry of Public Security – 3rd Research Institute",
+      "role": "Research Commercialization Intern",
+      "period": "2024",
+      "location": "Shanghai, China",
+      "desc": "Contributed to research-to-application transfer projects at a government research institute."
+    },
+    "languages_list": [
+      { "lang": "Chinese", "level": "Native" },
+      { "lang": "English", "level": "Fluent (IELTS 6.0)" },
+      { "lang": "French", "level": "Professional working proficiency" }
+    ]
+  },
+  "blog": {
+    "title": "Skills & Open Source",
+    "skills_title": "Technical Skills",
+    "radar_title": "Skill Radar",
+    "github_title": "GitHub Activity",
+    "repos": "Public Repos",
+    "stars": "Total Stars",
+    "top_language": "Top Language",
+    "top_repos": "Top Repositories",
+    "languages": "Language Breakdown",
+    "api_error": "GitHub API rate limited — try again later"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Open to job opportunities, collaborations, or just a good tech chat",
+    "name_label": "Name",
+    "email_label": "Email",
+    "message_label": "Message",
+    "send": "Send Message",
+    "success": "Message sent — thanks for reaching out!",
+    "error": "Send failed. Please email me directly.",
+    "location": "Shanghai / Paris",
+    "email_address": "wangyuchun0807@gmail.com"
+  }
+}
