@@ -122,7 +122,7 @@ const projects = [
     },
     stack: ["Python Dash", "Plotly", "K-Means", "ARIMA"],
     github: "https://github.com/YUu-8/Flickr-Geodata-Dashboard",
-    demo: null,
+    demo: "https://flickr-geodata-dashboard.onrender.com/",
     video: "/videos/dashbord.mov",
     color: "#059669",
     categories: ['Data'],

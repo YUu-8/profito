@@ -230,6 +230,42 @@ export default function ProjectDetail() {
           </motion.div>
         )}
 
+        {/* Live Demo Embed */}
+        {p.demo && (
+          <motion.div
+            {...fadeUp(0)}
+            className="mb-10 rounded-2xl overflow-hidden"
+            style={{ border: `1px solid ${p.color}25`, boxShadow: `0 0 60px ${p.color}15` }}
+          >
+            <div
+              className="flex items-center justify-between px-5 py-3"
+              style={{ background: `${p.color}12`, borderBottom: `1px solid ${p.color}20` }}
+            >
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+                <span className="text-xs text-gray-400 uppercase tracking-widest">Live Demo</span>
+              </div>
+              <a
+                href={p.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs px-3 py-1 rounded-full transition-colors"
+                style={{ color: p.color, background: `${p.color}15` }}
+              >
+                Open ↗
+              </a>
+            </div>
+            <iframe
+              src={p.demo}
+              title="Live Demo"
+              className="w-full"
+              style={{ height: '560px', border: 'none', background: '#fff' }}
+              loading="lazy"
+              allow="fullscreen"
+            />
+          </motion.div>
+        )}
+
         {/* 2-column content */}
         <div className="grid md:grid-cols-3 gap-6">
 
