@@ -6,7 +6,7 @@ import Projects from './pages/Projects'
 import ProjectDetail from './pages/ProjectDetail'
 import Resume from './pages/Resume'
 import Skills from './pages/Skills'
-import Contact from './pages/Contact'
+import Now from './pages/Now'
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/projects/:id"  element={<ProjectDetail />} />
         <Route path="/resume"        element={<Resume />} />
         <Route path="/skills"        element={<Skills />} />
-        <Route path="/contact"       element={<Contact />} />
+        <Route path="/now"            element={<Now />} />
       </Routes>
     </BrowserRouter>
   )

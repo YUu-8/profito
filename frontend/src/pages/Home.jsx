@@ -75,6 +75,7 @@ function ProjectCard({ p, lang, t }) {
   }
 
   return (
+    <Link to={`/projects/${p.id}`} className="block h-full">
     <GlowCard glowColor={p.color} className="glass-card rounded-2xl overflow-hidden flex flex-col h-full">
       {/* 视频区域 */}
       {p.video ? (
@@ -142,6 +143,7 @@ function ProjectCard({ p, lang, t }) {
           href={p.github}
           target="_blank"
           rel="noreferrer"
+          onClick={e => e.stopPropagation()}
           className="text-xs hover:underline transition-opacity hover:opacity-70"
           style={{ color: p.color }}
         >
@@ -149,6 +151,7 @@ function ProjectCard({ p, lang, t }) {
         </a>
       </div>
     </GlowCard>
+    </Link>
   )
 }
 

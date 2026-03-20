@@ -4,7 +4,7 @@
     "projects": "项目",
     "resume": "简历",
     "skills": "技能",
-    "contact": "联系我"
+    "now": "现在"
   },
   "home": {
     "greeting": "你好，我是",
@@ -102,16 +102,11 @@
     "languages": "语言分布",
     "api_error": "GitHub API 请求受限，请稍后再试"
   },
-  "contact": {
-    "title": "联系我",
-    "subtitle": "欢迎聊工作机会、项目合作或技术问题",
-    "name_label": "姓名",
-    "email_label": "邮箱",
-    "message_label": "留言",
-    "send": "发送消息",
-    "success": "消息已发送，感谢联系！",
-    "error": "发送失败，请直接发邮件联系我",
-    "location": "上海 / 巴黎",
-    "email_address": "wangyuchun0807@gmail.com"
+  "now": {
+    "eyebrow": "/ 现在",
+    "title": "现在",
+    "subtitle": "我目前专注的事情 — 更新于 2026 年 3 月。",
+    "doing_title": "最近动态",
+    "learning_title": "正在学习"
   }
 }

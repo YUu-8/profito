@@ -16,7 +16,7 @@ export default function Navbar() {
     { to: '/projects', key: 'projects' },
     { to: '/skills',   key: 'skills' },
     { to: '/resume',   key: 'resume' },
-    { to: '/contact',  key: 'contact' },
+    { to: '/now',      key: 'now' },
   ]
 
   return (

@@ -4,7 +4,7 @@
     "projects": "Projects",
     "resume": "Resume",
     "skills": "Skills",
-    "contact": "Contact"
+    "now": "Now"
   },
   "home": {
     "greeting": "Hi, I'm",
@@ -102,16 +102,11 @@
     "languages": "Language Breakdown",
     "api_error": "GitHub API rate limited — try again later"
   },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "Open to job opportunities, collaborations, or just a good tech chat",
-    "name_label": "Name",
-    "email_label": "Email",
-    "message_label": "Message",
-    "send": "Send Message",
-    "success": "Message sent — thanks for reaching out!",
-    "error": "Send failed. Please email me directly.",
-    "location": "Shanghai / Paris",
-    "email_address": "wangyuchun0807@gmail.com"
+  "now": {
+    "eyebrow": "/ now",
+    "title": "Now",
+    "subtitle": "What I'm currently focused on — updated March 2026.",
+    "doing_title": "Recent highlights",
+    "learning_title": "Currently learning"
   }
 }

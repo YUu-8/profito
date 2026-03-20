@@ -1,3 +1,24 @@
+// ================================================================
+// PROJECTS DATA — 在这里添加/修改项目
+// ================================================================
+// 添加新项目：在数组末尾复制一个对象，填入内容
+// 字段说明：
+//   id          — 唯一整数，依次递增
+//   title/En/Fr — 三语标题
+//   description — { zh, en, fr } 简介（首页卡片用）
+//   stack       — 技术栈标签数组
+//   github      — GitHub 仓库链接（null = 不显示）
+//   demo        — 在线 Demo 链接（null = 不显示）
+//   video       — 演示视频路径，放 public/videos/（null = 不显示）
+//   pdf         — 报告 PDF 路径，放 public/reports/（null = 不显示）
+//   color       — 卡片主题色（十六进制）
+//   categories  — 用于筛选，可选值: 'ML' | 'AI' | 'Data' | 'DevOps' | 'Frontend' | 'Backend'
+//   background  — { zh, en, fr } 详情页：项目背景
+//   role        — { zh, en, fr } 详情页：我的角色
+//   challenges  — [{ zh, en, fr }] 详情页：技术难点
+//   metrics     — [{ label, value }] 详情页：关键指标
+// ================================================================
+
 const projects = [
   {
     id: 1,
@@ -131,6 +152,52 @@ const projects = [
       { label: "Data Points", value: "3,000+" },
       { label: "Clusters Found", value: "K=7" },
       { label: "Charts", value: "4 Linked" }
+    ],
+    pdf: null
+  },
+  // ── 新增项目从这里往下追加 ─────────────────────────────────
+  {
+    id: 4,
+    title: "ReelEcho 媒体收藏平台",
+    titleEn: "ReelEcho Media Collection Platform",
+    titleFr: "Plateforme de Collection Médias ReelEcho",
+    description: {
+      zh: "MERN 全栈媒体管理平台，负责收藏界面 UI 与后端开发。集成 GitHub Actions CI/CD，测试覆盖率 ≥80%，支持团队协作工作流。",
+      en: "Full-stack MERN media platform. Built the favourites/collection UI and backend. Integrated GitHub Actions CI/CD with ≥80% test coverage enforced via Vitest + Supertest.",
+      fr: "Plateforme média MERN full-stack. Développement de l'interface de collection et du backend. CI/CD GitHub Actions avec couverture de tests ≥80% via Vitest + Supertest."
+    },
+    stack: ["React", "Node.js", "Express", "MongoDB", "Vitest", "GitHub Actions"],
+    github: "https://github.com/YUu-8/ReelEcho",
+    demo: null,
+    video: "/videos/Reelecho.mov",
+    color: "#0EA5E9",
+    categories: ['Frontend', 'Backend', 'DevOps'],
+    background: {
+      zh: "ReelEcho 是一个面向多人协作学习的 MERN 全栈媒体管理平台。项目从一开始就内置 DevOps 实践——自动化路由挂载（减少合并冲突）、CI 测试门禁、与 Jira 兼容的分支命名规范，真实模拟企业级协作流程。",
+      en: "ReelEcho is a collaborative MERN full-stack media platform built with DevOps principles from day one — auto-mounted routes to minimise merge conflicts, CI coverage gates, and a Jira-compatible branching workflow that mirrors real-world team engineering.",
+      fr: "ReelEcho est une plateforme média MERN collaborative construite avec des principes DevOps dès le départ — routes auto-montées pour minimiser les conflits de fusion, portes CI de couverture, et un workflow de branchement compatible Jira."
+    },
+    role: {
+      zh: "负责收藏功能前端 UI（React 组件、状态管理、响应式布局）和对应 Express 后端路由（CRUD + Mongoose 数据模型）；参与 GitHub Actions CI 流水线配置，确保单元/集成测试覆盖率达标。",
+      en: "Owned the favourites/collection feature end-to-end: React UI components, state management, responsive layout, and the corresponding Express REST routes with Mongoose data models. Contributed to GitHub Actions CI pipeline ensuring unit and integration test coverage thresholds.",
+      fr: "Développement de bout en bout de la fonctionnalité de collection : composants React, gestion d'état, mise en page responsive, et routes REST Express avec modèles de données Mongoose. Contribution au pipeline CI GitHub Actions."
+    },
+    challenges: [
+      {
+        zh: "多人协作时的 Git 合并冲突：通过自动化路由挂载机制，每个功能模块独立注册路由，避免频繁修改同一入口文件。",
+        en: "Managing Git merge conflicts in a multi-contributor codebase — solved with an auto-mounted route system where each feature registers its own router, eliminating simultaneous edits to a single entry file.",
+        fr: "Gestion des conflits de fusion Git dans une base de code multi-contributeurs — résolu avec un système de routes auto-montées où chaque fonctionnalité enregistre son propre routeur."
+      },
+      {
+        zh: "在 CI 环境中对 MongoDB 进行集成测试：配置 Supertest + 内存数据库，确保每次 PR 的测试覆盖率 ≥80%。",
+        en: "Integration testing against MongoDB in CI — configured Supertest with an in-memory database so every PR enforces ≥80% line/function coverage before merging.",
+        fr: "Tests d'intégration contre MongoDB en CI — configuration de Supertest avec une base de données en mémoire pour enforcer ≥80% de couverture sur chaque PR."
+      }
+    ],
+    metrics: [
+      { label: "Test Coverage", value: "≥ 80%" },
+      { label: "Stack", value: "MERN" },
+      { label: "CI/CD", value: "GitHub Actions ✓" }
     ],
     pdf: null
   }

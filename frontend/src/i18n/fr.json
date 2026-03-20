@@ -4,7 +4,7 @@
     "projects": "Projets",
     "resume": "CV",
     "skills": "Compétences",
-    "contact": "Contact"
+    "now": "Maintenant"
   },
   "home": {
     "greeting": "Bonjour, je suis",
@@ -102,16 +102,11 @@
     "languages": "Répartition des langages",
     "api_error": "Limite de taux GitHub atteinte — réessayez plus tard"
   },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "Ouvert aux opportunités, collaborations ou discussions techniques",
-    "name_label": "Nom",
-    "email_label": "E-mail",
-    "message_label": "Message",
-    "send": "Envoyer",
-    "success": "Message envoyé — merci de m'avoir contactée !",
-    "error": "Échec d'envoi. Veuillez m'écrire directement par e-mail.",
-    "location": "Shanghai / Paris",
-    "email_address": "wangyuchun0807@gmail.com"
+  "now": {
+    "eyebrow": "/ maintenant",
+    "title": "Maintenant",
+    "subtitle": "Ce sur quoi je me concentre en ce moment — mis à jour en mars 2026.",
+    "doing_title": "Actualités récentes",
+    "learning_title": "En cours d'apprentissage"
   }
 }
